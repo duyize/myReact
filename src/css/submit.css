@@ -1,0 +1,105 @@
+.slist{
+    width: 100%;
+    background: #fff;    
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.slist li{
+    width: 94%;
+    margin-left: 3%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc; 
+    font-size: 20px;    
+}
+.lr span{
+    float: left;
+    font-size: 16px;
+    font-family: '微软雅黑';
+    margin-left: 15px;
+}
+.lr input{
+    float: right;
+    width: 60%;
+    height: 60%;
+    margin-top:3%; 
+    border: none;
+    color: #888;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.btns button{
+    width: 60px;
+    height: 30px;
+    margin:10px 2px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    line-height:30px; 
+    border:none;
+    outline:none;
+}
+.btns .sub{
+    background: lightblue;
+}
+.btns .clear{
+    background: lightcoral;
+}
+.mark_sub{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: rgba(0,0,0,.3);
+    z-index: 9999;
+    /* display: none; */
+}
+.mark_s{
+    width: 80%;
+    height: 300px;
+    margin: 60px auto;
+    background: #fff;;
+    border-radius: 10px;
+}
+.mark_s li{
+    line-height: 60px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+.mark_s li span{
+    flex:3;
+    flex-shrink: 0;
+    text-align: center;
+}
+.mark_s li input{
+    flex:7;
+    height: 40px;
+    margin-top: 10px;
+    border:none;
+    outline: none;
+}
+.mark_s .user_btns{
+    border-bottom:none;
+    display: flex;
+    justify-content: center;
+    margin-top:10px;    
+}
+.mark_s .user_btns button{
+    margin: 0 2px;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+}
+.mark_s .user_btns #sure{
+    background: skyblue;
+    color: #fff;
+}
+.mark_s .user_btns #cancel{
+    background: lightcoral;
+    color: #fff;
+}

@@ -1,0 +1,80 @@
+.home{
+    color: #000;
+}
+.money{
+    width: 100%;
+    height: 100px;
+}
+.showmoney{
+    width: 40%;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 30%;
+    background: #ccc;
+    border-radius: 5px;
+    color: #000;
+    text-align: center;
+    line-height: 80px;
+    font-size:40px;
+}
+.manage{
+    width: 100%;
+    height: 50px;
+    background: skyblue;
+}
+.manage input{
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 3%;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding-left: 4%;
+    background: skyblue;
+}
+.manage input::-webkit-input-placeholder{
+    color: #555;
+}
+.manage_btn{
+    width: 90%;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 3%;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding-left: 4%;
+    background: skyblue;
+    color: #fff;
+}
+.flutmoney{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.list{
+    width: 100%;
+    background: #fff;    
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.list li{
+    width: 94%;
+    margin-left: 3%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc; 
+    font-size: 20px;    
+}
+.list li .user{
+    float: left;
+    width: 60px;
+    text-align: center;
+    color: #ccc;
+}
+.list li .user_money{
+    float: right;
+    width: 60px;
+    text-align: center;
+    color: plum;
+}

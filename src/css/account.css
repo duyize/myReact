@@ -1,0 +1,28 @@
+.ac_money{
+    width: 100%;
+    height: 60px;
+    padding-top:10px;
+}
+.ac_money p{
+    width: 60%;
+    margin-left: 20%;
+    background: #ccc;
+    border-radius: 10px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+}
+.tables{
+    width: 100%;
+}
+.tables th{
+    width:20%;
+    height:20px;
+    line-height: 20px;
+    border:1px solid #ccc;    
+}
+.tables td{
+    text-align: center;
+    border:1px solid #ccc;
+    
+}

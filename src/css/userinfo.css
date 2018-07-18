@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.wrap{
+    width: 100%;
+    height: 100%;
+    position: relative;    
+}
+.header{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    background: #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+.header i{
+    font-size: 20px!important;
+}
+.main{
+    width: 100%;
+}
+.main .lis{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+.main .lis i{
+    font-size: 25px!important;
+}
+
+.mark_all{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: rgba(0,0,0,.3);
+    z-index: 9999;
+    /* display: none; */
+}
+.mark{
+    width: 80%;
+    height: 240px;
+    margin: 60px auto;
+    background: #fff;;
+    border-radius: 10px;
+}
+.mark li{
+    line-height: 60px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+.mark li span{
+    flex:3;
+    flex-shrink: 0;
+    text-align: center;
+}
+.mark li input{
+    flex:7;
+    height: 40px;
+    margin-top: 10px;
+    border:none;
+    outline: none;
+}
+.mark .user_btns{
+    border-bottom:none;
+    display: flex;
+    justify-content: center;
+    margin-top:10px;    
+}
+.mark .user_btns button{
+    margin: 0 2px;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+}
+.mark .user_btns #sure{
+    background: skyblue;
+    color: #fff;
+}
+.mark .user_btns #cancel{
+    background: lightcoral;
+    color: #fff;
+}
+.mark_all2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background-color: rgba(0,0,0,.3);
+    z-index: 9999;
+    /* display: none; */
+}
+.changeInfo{
+    width: 80%;
+    height: 120px;
+    margin:80px auto;
+    background: #fff;;
+    border-radius: 10px;
+    z-index: 9999;
+}
+.changeInfo li{
+    line-height: 60px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+}
+.changeInfo li span{
+    flex:3;
+    flex-shrink: 0;
+    text-align: center;
+}
+.changeInfo li input{
+    flex:7;
+    height: 40px;
+    margin-top: 10px;
+    border:none;
+    outline: none;
+}
+.changeInfo .user_btns{
+    border-bottom:none;
+    display: flex;
+    justify-content: center;
+    margin-top:10px;    
+}
+.changeInfo .user_btns button{
+    margin: 0 2px;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+}
+.changeInfo .user_btns #sure{
+    background: skyblue;
+    color: #fff;
+}
+.changeInfo .user_btns #cancel{
+    background: lightcoral;
+    color: #fff;
+}
